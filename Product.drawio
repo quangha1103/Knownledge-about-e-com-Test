@@ -1,47 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T02:19:30.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ZcMyfdPF88geGt_Cfiec" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T02:21:40.382Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QfdkvS860_dXZR9o7iyb" version="24.4.10" type="github">
   <diagram name="Trang-1" id="6ryz4ccO66AxR2wI0vaa">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FM4NP6ebKmZ3h5DB7e9r-3" value="Base Product" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="460" width="160" height="70" as="geometry" />
+          <mxGeometry x="340" y="280" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FM4NP6ebKmZ3h5DB7e9r-4" value="Name: Galaxy s24" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="FM4NP6ebKmZ3h5DB7e9r-3" vertex="1">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YGNcSUg-PkcfSUEhg-0P-1" value="Category 1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="210" width="160" height="70" as="geometry" />
+          <mxGeometry x="340" y="40" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="YGNcSUg-PkcfSUEhg-0P-2" value="ex:" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YGNcSUg-PkcfSUEhg-0P-1">
+        <mxCell id="YGNcSUg-PkcfSUEhg-0P-2" value="ex:Phone" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YGNcSUg-PkcfSUEhg-0P-1">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YGNcSUg-PkcfSUEhg-0P-3" value="Base Product" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="334" y="590" width="160" height="70" as="geometry" />
+        <mxCell id="YGNcSUg-PkcfSUEhg-0P-5" value="Variant" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="390" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="YGNcSUg-PkcfSUEhg-0P-4" value="Name: Galaxy s24" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YGNcSUg-PkcfSUEhg-0P-3">
+        <mxCell id="YGNcSUg-PkcfSUEhg-0P-6" value="ex: Black 64GB" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YGNcSUg-PkcfSUEhg-0P-5">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="YGNcSUg-PkcfSUEhg-0P-5" value="Base Product" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="590" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="YGNcSUg-PkcfSUEhg-0P-6" value="Name: Galaxy s24" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YGNcSUg-PkcfSUEhg-0P-5">
-          <mxGeometry y="30" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="YGNcSUg-PkcfSUEhg-0P-7" value="Base Product" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="590" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="YGNcSUg-PkcfSUEhg-0P-8" value="Name: Galaxy s24" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YGNcSUg-PkcfSUEhg-0P-7">
-          <mxGeometry y="30" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="YGNcSUg-PkcfSUEhg-0P-12" value="Name: Galaxy s24" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YGNcSUg-PkcfSUEhg-0P-7">
-          <mxGeometry y="70" width="160" as="geometry" />
         </mxCell>
         <mxCell id="YGNcSUg-PkcfSUEhg-0P-10" value="Category n" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="350" width="160" height="70" as="geometry" />
+          <mxGeometry x="340" y="160" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YGNcSUg-PkcfSUEhg-0P-11" value="ex: Galaxy" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YGNcSUg-PkcfSUEhg-0P-10">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YGNcSUg-PkcfSUEhg-0P-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YGNcSUg-PkcfSUEhg-0P-2" target="YGNcSUg-PkcfSUEhg-0P-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGNcSUg-PkcfSUEhg-0P-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YGNcSUg-PkcfSUEhg-0P-11" target="FM4NP6ebKmZ3h5DB7e9r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGNcSUg-PkcfSUEhg-0P-16" value="Variant" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YGNcSUg-PkcfSUEhg-0P-17" value="ex: White 32GB" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YGNcSUg-PkcfSUEhg-0P-16">
+          <mxGeometry y="30" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YGNcSUg-PkcfSUEhg-0P-18" value="Variant" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YGNcSUg-PkcfSUEhg-0P-19" value="ex: Black 32GB" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YGNcSUg-PkcfSUEhg-0P-18">
+          <mxGeometry y="30" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YGNcSUg-PkcfSUEhg-0P-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FM4NP6ebKmZ3h5DB7e9r-4" target="YGNcSUg-PkcfSUEhg-0P-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGNcSUg-PkcfSUEhg-0P-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FM4NP6ebKmZ3h5DB7e9r-4" target="YGNcSUg-PkcfSUEhg-0P-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGNcSUg-PkcfSUEhg-0P-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FM4NP6ebKmZ3h5DB7e9r-4" target="YGNcSUg-PkcfSUEhg-0P-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
