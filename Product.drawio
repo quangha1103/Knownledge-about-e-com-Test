@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T02:40:05.600Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="vgoUmj3hg0PKkNqy2aUF" version="24.4.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-30T02:46:31.719Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="IYbWcFLQ5J1s49ztIN7p" version="24.4.10" type="github" pages="2">
   <diagram name="Structure product" id="6ryz4ccO66AxR2wI0vaa">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ddg6zBA4e_43DE50-Oe3" name="Master/ChildCatalog Concept">
-    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,6 +76,33 @@
         </mxCell>
         <mxCell id="YYhg4_GQqu16NOlQkwNT-5" value="&lt;div&gt;-Contain all product from all site&lt;/div&gt;&lt;div&gt;- Can be restrict at some level (can&#39;t show)&lt;/div&gt;&lt;div&gt;- Need created and synced with external system&lt;/div&gt;&lt;div&gt;at this level&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YYhg4_GQqu16NOlQkwNT-4">
           <mxGeometry y="30" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YYhg4_GQqu16NOlQkwNT-7" value="Child Estore catalog" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YYhg4_GQqu16NOlQkwNT-8" value="- Product catalogs for different online sites&lt;div&gt;- Site specific product attributes should be&amp;nbsp;&lt;/div&gt;&lt;div&gt;set up at this level&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YYhg4_GQqu16NOlQkwNT-7">
+          <mxGeometry y="30" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YYhg4_GQqu16NOlQkwNT-9" value="Child EPP catalog" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="270" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YYhg4_GQqu16NOlQkwNT-10" value="- Product catalogs for different online sites&lt;div&gt;- Site specific product attributes should be&amp;nbsp;&lt;/div&gt;&lt;div&gt;set up at this level&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YYhg4_GQqu16NOlQkwNT-9">
+          <mxGeometry y="30" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YYhg4_GQqu16NOlQkwNT-11" value="Child SMB catalog" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-31" y="270" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YYhg4_GQqu16NOlQkwNT-12" value="- Product catalogs for different online sites&lt;div&gt;- Site specific product attributes should be&amp;nbsp;&lt;/div&gt;&lt;div&gt;set up at this level&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YYhg4_GQqu16NOlQkwNT-11">
+          <mxGeometry y="30" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YYhg4_GQqu16NOlQkwNT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YYhg4_GQqu16NOlQkwNT-5" target="YYhg4_GQqu16NOlQkwNT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YYhg4_GQqu16NOlQkwNT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YYhg4_GQqu16NOlQkwNT-5" target="YYhg4_GQqu16NOlQkwNT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YYhg4_GQqu16NOlQkwNT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YYhg4_GQqu16NOlQkwNT-5" target="YYhg4_GQqu16NOlQkwNT-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
