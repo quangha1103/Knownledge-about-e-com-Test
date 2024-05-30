@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T03:21:00.089Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="u6yeS3xqijqlbDajvLv7" version="24.4.10" type="github" pages="2">
-  <diagram name="Structure product" id="6ryz4ccO66AxR2wI0vaa">
+<mxfile host="app.diagrams.net" modified="2024-05-30T03:21:45.852Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="nNmSZuJVkG5lGiD-s_so" version="24.4.10" type="github" pages="2">
+  <diagram name="1. Structure product" id="6ryz4ccO66AxR2wI0vaa">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -63,7 +63,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ddg6zBA4e_43DE50-Oe3" name="Master/ChildCatalog Concept">
+  <diagram id="ddg6zBA4e_43DE50-Oe3" name="2. Master/ChildCatalog Concept">
     <mxGraphModel dx="3007" dy="1356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
